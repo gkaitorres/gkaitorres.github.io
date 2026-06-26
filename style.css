@@ -70,7 +70,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 18px;
-  padding-bottom: 12px;
+  padding: 24px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
 }
 
 .profile-photo {
