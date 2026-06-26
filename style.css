@@ -21,9 +21,16 @@ body {
 }
 
 .site-shell {
-  max-width: 760px;
+  max-width: 980px;
   margin: 0 auto;
   padding: 56px 24px 64px;
+}
+
+.page-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 320px) 1fr;
+  gap: 36px;
+  align-items: start;
 }
 
 /* ---- Top nav (text links, no big name lockup) ---- */
@@ -228,6 +235,12 @@ footer {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 11px;
   color: var(--muted);
+}
+
+@media (max-width: 900px) {
+  .page-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 560px) {
