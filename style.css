@@ -127,6 +127,25 @@ body {
   padding: 18px 18px 16px;
 }
 
+.about-layout .hero-side {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid var(--line);
+  display: block;
+}
+
+.profile-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 .detail-list {
   margin: 0;
   padding-left: 18px;
